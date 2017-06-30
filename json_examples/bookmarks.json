@@ -1,0 +1,26 @@
+{
+	"_id": "38E98QvNGKEpgoimy",
+	"publicationCodes": [
+		"pal"
+	],
+	"categoryCodes": [
+		"special_reports"
+	],
+	"articleSlug": "the-beginners-guide-to-opening-a-brokerage-account",
+	"authorCodes": [],
+	"deletedAt": null,
+	"articleWordpressId": 20234,
+	"userId": "SAC0001106199",
+	"staged": false,
+	"articleId": {
+		"$oid": "57a3f27eb535c6bf084fd07f"
+	},
+	"createdAt": {
+		"$date": "2017-02-02T00:03:48.067Z"
+	},
+	"type": "post",
+	"articleTitle": "The Beginner's Guide to Opening a Brokerage Account",
+	"articleCreatedAt": {
+		"$date": "2014-04-24T16:46:29.000Z"
+	}
+}

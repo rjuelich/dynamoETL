@@ -22,7 +22,7 @@ import boto.dynamodb2.results
 dynamodb = boto3.resource('dynamodb')
 
 parser = argparse.ArgumentParser(description="MongoDB JSON to dynamoDB importer")
-parser.add_argument("-j", "--json", required=True, help="list of JSON file names to import")
+parser.add_argument("-j", "--json", required=True, help="list of JSON file names to import, one per line")
 parser.add_argument("-t", "--table", required=True, help="Table name for import")
 
 args = parser.parse_args(sys.argv[1:])

@@ -1,0 +1,36 @@
+{
+	"_id": {
+		"$oid": "59233fc7d6c9b3795add2d0e"
+	},
+	"wordpressId": 1744,
+	"code": "sih",
+	"title": "Stansberry Investor Hour",
+	"hideAsAvailable": true,
+	"upsellLink": "",
+	"aboutPageId": "",
+	"feedbackEmail": "",
+	"deprecated": false,
+	"isPubScheduleDisabled": true,
+	"visibleForAuthor": false,
+	"priority": 0,
+	"description": "",
+	"widgetInfo": [],
+	"archiveBlocks": "",
+	"theme": "blue",
+	"publishingInfo": {
+		"author": "Investor Hour",
+		"authorCode": "investor-hour",
+		"type": [
+			""
+		],
+		"totals": {
+			"currentYear": "0",
+			"cumulative": "0"
+		},
+		"schedule": {
+			"first": {
+				"$date": "1970-01-01T00:00:00.000Z"
+			}
+		}
+	}
+}
