@@ -1,0 +1,15 @@
+categories = Table.create('categories', schema=[
+	HashKey('wordpressId', data_type='N'),
+], throughput={
+		'read': 100,
+		'write': 1000,
+}, global_indexes=[
+	GlobalAllIndex('EverythingIndex', parts=[
+		HashKey('wordpressId'),
+	],
+	throughput={
+		'read': 10,
+		'write': 100,
+	})
+],
+)

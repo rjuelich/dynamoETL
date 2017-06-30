@@ -1,0 +1,15 @@
+bookmarks = Table.create('bookmarks', schema=[
+	HashKey('_id', data_type='S'),
+], throughput={
+		'read': 100,
+		'write': 1000,
+}, global_indexes=[
+	GlobalAllIndex('EverythingIndex', parts=[
+		HashKey('_id'),
+	],
+	throughput={
+		'read': 10,
+		'write': 100,
+	})
+],
+)
