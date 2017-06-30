@@ -22,4 +22,4 @@ Script(s) and supporting files for batch importation of individual Stansberry co
   parser.add_argument("-t", "--table", required=True, help="dynamoDB table to import into")
   
   
-  Further documentation/functionality to come.
+  Further documentation and functionality, to come.
