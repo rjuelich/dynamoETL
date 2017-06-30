@@ -18,7 +18,9 @@ Script(s) and supporting files for batch importation of individual Stansberry co
   In other words:
   
   parser = argparse.ArgumentParser(description="MongoDB JSON to dynamoDB importer")
+  
   parser.add_argument("-j", "--json", required=True, help="list of JSON file names to import, one per line")
+  
   parser.add_argument("-t", "--table", required=True, help="dynamoDB table to import into")
   
   
